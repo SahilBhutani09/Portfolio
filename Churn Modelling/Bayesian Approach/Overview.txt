@@ -1,0 +1,26 @@
+This model is used to predict customer behavior in non-contractual settings, such as retail or e-commerce, where customers can make purchases at any time and may stop purchasing without notice.
+
+We use Bayesian Methods - BG/NBD distribution as priors. BG/NBD stands for Beta Geometric/Negative Binomial Distribution
+
+The BG/NBD model assumes that:
+ 1. Each customer has a unique purchase rate (lambda) that follows a Gamma distribution
+ 2. Purchases occur according to a Poisson process with rate lambda
+ 3. Each customer has a unique dropout probability (p) that follows a Beta distribution
+ 4. After each purchase, a customer may drop out with probability p which follows a geometric distribution
+
+The objective of the BG/NBD model is to estimate the parameters of these distributions
+
+ The input data for the BG/NBD model typically includes:
+ 1. Customer ID: A unique identifier for each customer
+ 2. Frequency: The number of repeat purchases made by the customer in a given time period
+ 3. Recency: The time between the customer's first and last purchase in the observation
+ 4. Monetary Value: The average value of the customer's purchases (optional for BG/NBD but used in CLV models)
+
+Implementation consists of the following steps:
+
+ 1. Data Preparation: Clean and structure the data to include Customer ID, Frequency, Recency, and Monetary Value.
+ 2. Parameter Estimation: Use maximum likelihood estimation (MLE) or Bayesian inference to estimate the parameters of the BG/NBD model.
+ 3. Model Fitting: Fit the BG/NBD model to the prepared data using the estimated parameters.
+ 4. Prediction: Use the fitted model to predict future customer behavior, such as the expected number of future purchases or the probability of customer retention.
+
+Relevant Libraries - Lifetimes, Pandas, NumPy, Matplotlib, Seaborn

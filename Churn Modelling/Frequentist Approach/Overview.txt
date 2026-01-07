@@ -1,0 +1,6 @@
+Frequentist Approach relies on classification models
+such Logistics Regression, Decision Trees, Random Forest, XG Boost to find the exact coefficietns value for customer classification
+
+For Customer churn, the output should be binary i.e. whether customer churned or not. 
+
+Since the data is related to customer subscription, customer needs to explicitly sign out and thus we have clear signal that the customer has churned in contarast to ecommerce where depending upon customer behaviour, we get a tendancy that customer might have churned and thus bayesian churn models are more applicable in such scenarios. 
