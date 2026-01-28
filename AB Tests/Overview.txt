@@ -1,0 +1,20 @@
+AB tests is one of the most effective ways to optimize your website or app for better user engagement and conversion rates. 
+By comparing two versions of a webpage or app screen, you can determine which one performs better based on user interactions.
+
+Here’s a simple guide to conducting an AB test:
+1. Define Your Goal:
+2. Identify what you want to achieve with the AB test, such as increasing click-through rates, sign-ups, or sales.
+2. Create Variations:
+2. Create Variations:
+   - Version A: The current version (control).
+   - Version B: The modified version (variant) with changes you want to test (e.g., different headlines, images, or call-to-action buttons).
+3. Split Your Audience:
+    - Randomly divide your audience into two groups: one group sees Version A, and the other sees Version B.
+4. Run the Test:
+
+Here is how to evaluate the results of your AB test using Python:
+AB test also depends the type of output - Numerical or Proportional.
+The below code demonstrates both types of AB test evaluations and how to interpret the results.
+
+
+    
