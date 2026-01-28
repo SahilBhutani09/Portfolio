@@ -11,7 +11,7 @@ Skills Set
 • Tools - SQL, Python, Tableau, Hadoop, Big Query, Amazon Redshift, SAS, GitHub (for version control)
 • Data Science - Statistical Analysis, Causal Inference, A/B Test, Classification, Time Series Forecasting, Media Mix Modelling, Regression, Scikit-learn, Pandas, NumPy
 • Marketing Tech (MarTech)
-----Analytics & Targeting – Adobe Analytics, Google Analytics 4, Launch, GTM, Tealium, Optimizely
+&enspAnalytics & Targeting – Adobe Analytics, Google Analytics 4, Launch, GTM, Tealium, Optimizely
 ----Customer Data Platforms – Adobe Experience Platform, BlueConic
 • Leadership/Consulting - Project Management, Stakeholders Engagement, JIRA
 
